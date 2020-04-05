@@ -1,4 +1,4 @@
-# Orange Erotic Bible
+# :pray: Orange Erotic Bible :two_hearts:
 
 If [gpt-2](https://openai.com/blog/better-language-models/) read [literotica](http://literotica.com/), what would be its take on the Holy scriptures? 
 
@@ -6,18 +6,25 @@ If [gpt-2](https://openai.com/blog/better-language-models/) read [literotica](ht
 
 ## Samples
 
-Read version 1.0 [here](https://write.as/409j3pqk81dazkla.md) or find it [here](the_orange_erotic_bible_v1.txt).
+Read the Orange Erotic Bible version 1.0 on [write.as](https://write.as/409j3pqk81dazkla.md), or as a [.txt file](the_orange_erotic_bible_v1.txt).
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3
+- Python 3.7
 - [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
-- An erotica fine-tuned gpt-2 model. I am working on making mine available to download.
 - A sense of humour, this is all in good Holy Spirits.
 
 ### Installing
+
+#### Download model
+
+To generate a new orange erotic bible, you need an erotica fine-tuned gpt-2 model.  
+Download mine from google drive [here](https://drive.google.com/open?id=1hcPVn7-F_pN6Pir8oPEI7-SVqcfJ7043). Use that `checkpoint_dir` path as `--checkpoint_dir` argument to the generation script below.  
+Alternatively, fine tune gpt-2 with some steamy literature and use your own erotic language model.
+
+#### Install Dependencies
 
 ```
 cd orange-erotic-bible
