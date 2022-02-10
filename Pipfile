@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 gpt-2-simple = "*"
-tensorflow = "==1.14"
+tensorflow = "==2.5.3"
 fire = "*"
 pytest = "*"
 
